@@ -16,7 +16,7 @@ Python 2, PyTorch == 0.4.0, torchvision == 0.2.1
 ```
 The repository should also work with Python 3.
 
-[BayesWatch's ImageNet Loader (https://github.com/BayesWatch/sequential-imagenet-dataloader)] is also required for ImageNet training.
+[BayesWatch's ImageNet Loader](https://github.com/BayesWatch/sequential-imagenet-dataloader) is required for ImageNet training.
 
 
 
