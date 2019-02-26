@@ -75,7 +75,7 @@ Make sure not to apply weight decay to the coefficients for best results (check 
 To train a SWRN-28-10-6 with cutout on CIFAR-10, do:
 
 ```
-  python main.py data --dataset cifar10 --arch swrn --depth 28 --wide 10 --bank_size 6 --cutout --job-id swrn28-10-6
+python main.py data --dataset cifar10 --arch swrn --depth 28 --wide 10 --bank_size 6 --cutout --job-id swrn28-10-6
 ```
 
 By default the learning rate will be decayed by 5 at epochs 60, 120 and 160 (out of a total of 200 epochs), and a weight decay of 0.0005 is applied. These settings can be specified through command-line arguments (schedule, gammas, decay, etc).
@@ -83,7 +83,7 @@ By default the learning rate will be decayed by 5 at epochs 60, 120 and 160 (out
 Also by default a 90/10 split will be used to split the original training set into train/val. When your model is ready to be evaluated on the test set, you can use the --evaluate option and point to the saved model, as in:
 
 ```
-  python main.py data --dataset cifar10 --arch swrn --depth 28 --wide 10 --bank_size 6 --evaluate --resume snapshots/swrn28-10-6/model_best.pth.tar
+python main.py data --dataset cifar10 --arch swrn --depth 28 --wide 10 --bank_size 6 --evaluate --resume snapshots/swrn28-10-6/model_best.pth.tar
 ```
 
 
