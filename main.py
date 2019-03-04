@@ -144,7 +144,7 @@ def main():
     
     criterion = torch.nn.CrossEntropyLoss().cuda()
     
-    params = group_weight_decay(net, state['decay'], ['descriptor'])
+    params = group_weight_decay(net, state['decay'], ['coefficients'])
     optimizer = torch.optim.SGD(params, state['learning_rate'], momentum=state['momentum'], nesterov=(state['momentum'] > 0.0))
 
     recorder = RecorderMeter(args.epochs)
