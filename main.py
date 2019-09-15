@@ -12,12 +12,13 @@ import numpy as np
 import random
 
 model_names = sorted(name for name in models.__dict__ if name.islower() and not name.startswith("__") and callable(models.__dict__[name]))
+
 parser = argparse.ArgumentParser(description='Training script for Networks with Soft Sharing', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
 # Data / Model
 parser.add_argument('data_path', metavar='DPATH', type=str, help='Path to dataset')
 parser.add_argument('--dataset', metavar='DSET', type=str, choices=['cifar10', 'cifar100', 'imagenet'], help='Choose between CIFAR/ImageNet.')
-parser.add_argument('--arch', metavar='ARCH', default='swrn', choices=model_names, help='model architecture: ' + ' | '.join(model_names) + ' (default: shared wide resnet)')
+parser.add_argument('--arch', metavar='ARCH', default='swrn', help='model architecture: ' + ' | '.join(model_names) + ' (default: shared wide resnet)')
 parser.add_argument('--depth', type=int, metavar='N', default=28)
 parser.add_argument('--wide', type=int, metavar='N', default=2)
 parser.add_argument('--bank_size', type=int, default=2, help='Size of filter bank for soft shared network')
