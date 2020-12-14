@@ -1,3 +1,10 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-implicitly-recurrent-cnns-through/architecture-search-on-cifar-10-image)](https://paperswithcode.com/sota/architecture-search-on-cifar-10-image?p=learning-implicitly-recurrent-cnns-through)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-implicitly-recurrent-cnns-through/image-classification-on-cifar-10)](https://paperswithcode.com/sota/image-classification-on-cifar-10?p=learning-implicitly-recurrent-cnns-through)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-implicitly-recurrent-cnns-through/image-classification-on-cifar-100)](https://paperswithcode.com/sota/image-classification-on-cifar-100?p=learning-implicitly-recurrent-cnns-through)
+
+
 # Soft Parameter Sharing
 
 Author implementation of the soft sharing scheme proposed in "Learning Implicitly Recurrent CNNs Through Parameter Sharing"  [[PDF](https://openreview.net/pdf?id=rJgYxn09Fm)]
