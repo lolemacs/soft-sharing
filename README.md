@@ -1,4 +1,4 @@
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-implicitly-recurrent-cnns-through/architecture-search-on-cifar-10-image)](https://paperswithcode.com/sota/architecture-search-on-cifar-10-image?p=learning-implicitly-recurrent-cnns-through)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-implicitly-recurrent-cnns-through/neural-architecture-search-on-cifar-10)](https://paperswithcode.com/sota/neural-architecture-search-on-cifar-10?p=learning-implicitly-recurrent-cnns-through)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-implicitly-recurrent-cnns-through/image-classification-on-cifar-10)](https://paperswithcode.com/sota/image-classification-on-cifar-10?p=learning-implicitly-recurrent-cnns-through)
 
